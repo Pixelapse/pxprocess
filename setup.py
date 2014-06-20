@@ -5,9 +5,11 @@ try:
 except ImportError:
   from distutils.core import setup
 
+import process
+
 setup(
   name='process',
-  version='0.0.1dev',
+  version=process.__version__,
   packages=find_packages(),
   long_description=open('README.md').read(),
   license=open('LICENSE').read()
