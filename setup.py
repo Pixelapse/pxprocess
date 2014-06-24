@@ -10,6 +10,7 @@ import process
 setup(
   name='process',
   version=process.__version__,
+  url='http://github.com/Pixelapse/process',
   author='Shravan Reddy',
   author_email='shravan@pixelapse.com',
   maintainer='Pixelapse',
