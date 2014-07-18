@@ -8,10 +8,10 @@ except ImportError:
 version = '0.0.1'
 
 setup(
-  name='process',
+  name='pxprocess',
   version=version,
-  url='http://github.com/Pixelapse/process',
-  download_url='https://github.com/Pixelapse/process/tarball/v%s' % version,
+  url='http://github.com/Pixelapse/pxprocess',
+  download_url='https://github.com/Pixelapse/pxprocess/tarball/v%s' % version,
   author='Shravan Reddy',
   author_email='shravan@pixelapse.com',
   maintainer='Pixelapse',

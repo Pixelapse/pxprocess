@@ -1,4 +1,4 @@
-__title__ = 'process'
+__title__ = 'pxprocess'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2014 Pixelapse'
 

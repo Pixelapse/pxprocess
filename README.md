@@ -1,4 +1,4 @@
-process
+pxprocess
 =======
 
 A friendly replacement for python's subprocess.
@@ -7,4 +7,4 @@ A friendly replacement for python's subprocess.
 
 Simply run:
 
-    $ pip install process
+    $ pip install pxprocess
