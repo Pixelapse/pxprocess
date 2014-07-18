@@ -1,10 +1,10 @@
 process
 =======
 
-## Installation Instructions
+A friendly replacement for python's subprocess.
 
-    pip install "git+git://github.com/Pixelapse/process.git@v0.0.1#egg=process"
+## Installation
 
-If you're using requirements.txt, add this:
+Simply run:
 
-    git+git://github.com/Pixelapse/process.git@v0.0.1#egg=process
+    $ pip install process
