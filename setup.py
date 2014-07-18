@@ -5,15 +5,19 @@ try:
 except ImportError:
   from distutils.core import setup
 
+version = '0.0.1'
+
 setup(
   name='process',
-  version='0.0.1',
+  version=version,
   url='http://github.com/Pixelapse/process',
+  download_url='https://github.com/Pixelapse/process/tarball/v%s' % version,
   author='Shravan Reddy',
   author_email='shravan@pixelapse.com',
   maintainer='Pixelapse',
   maintainer_email='hello@pixelapse.com',
   packages=find_packages(),
+  description='Friendly replacement for subprocess',
   long_description=open('README.md').read(),
   license=open('LICENSE').read()
 )
