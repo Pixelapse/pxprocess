@@ -5,11 +5,9 @@ try:
 except ImportError:
   from distutils.core import setup
 
-import process
-
 setup(
   name='process',
-  version=process.__version__,
+  version='0.0.1',
   url='http://github.com/Pixelapse/process',
   author='Shravan Reddy',
   author_email='shravan@pixelapse.com',
